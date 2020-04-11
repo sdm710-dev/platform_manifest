@@ -23,6 +23,10 @@
            fetch="https://github.com/omnirom"
            revision="refs/heads/android-10" />
 
+  <remote  name="sdm710-dev"
+          fetch="https://github.com/sdm710-dev"
+           revision="refs/heads/ten" />
+
   <!-- AOSiP -->
   <!-- General -->
   <project path="art" name="platform_art" remote="derp" />
@@ -70,7 +74,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="sdm710-dev" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="derp" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
@@ -101,7 +105,7 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="derp" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="aosip" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="derp" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="derp" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="sdm710-dev" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="derp" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="derp" />
@@ -126,7 +130,7 @@
   <project path="system/vold" name="platform_system_vold" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="derp" />
+  <project path="vendor/aosip" name="platform_vendor_aosip" remote="sdm710-dev" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="derp" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="derp" />
