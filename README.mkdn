@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the DerpFest trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/DerpLab/platform_manifest.git -b ten
+repo init -u git://github.com/sdm710-dev/platform_manifest.git -b ten
 ```
 Then to sync up:
 ```bash
