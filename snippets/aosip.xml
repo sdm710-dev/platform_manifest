@@ -158,7 +158,7 @@
   <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="derp" />
 
   <!-- SDM710-DEVs devices -->
-  <project path="device/xiaomi/grus" name="device_xiaomi_grus" remote="sdm710-dev" />
-  <project path="vendor/xiaomi/grus" name="vendor_xiaomi_grus" remote="sdm710-dev" />
-  <project path="kernel/xiaomi/sdm710" name="fuldaros/kernel_xiaomi_grus" remote="github" />
+  <project path="device/xiaomi/grus" name="device_xiaomi_grus" remote="sdm710-dev" revision="ten" />
+  <project path="vendor/xiaomi/grus" name="vendor_xiaomi_grus" remote="sdm710-dev" revision="master" />
+  <project path="kernel/xiaomi/sdm710" name="fuldaros/kernel_xiaomi_grus" remote="github" revision="caf" />
 </manifest>
